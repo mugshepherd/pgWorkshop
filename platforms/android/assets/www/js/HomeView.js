@@ -9,6 +9,7 @@ var HomeView = function (service) {
         this.render();
     };
 
+	
     this.render = function() {
         this.$el.html(this.template());
         $('.content', this.$el).html(employeeListView.$el);
