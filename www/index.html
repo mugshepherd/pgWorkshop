@@ -22,7 +22,7 @@
     <ul class="table-view">
         {{#each this}}
         <li class="table-view-cell media">
-            <a href="#employees"/{{id}}">
+            <a href="#employees/{{ id }}">
                 <img class="media-object pull-left" src="assets/pics/{{pic}}">
                 <div class="media-body">
                     {{firstName}} {{lastName}}
@@ -33,7 +33,6 @@
         {{/each}}
     </ul>
 </script>
-
 
 <script id="employee-tpl" type="text/template">
     <header class="bar bar-nav">
@@ -46,7 +45,7 @@
         <div class="card">
             <ul class="table-view">
                 <li class="table-view-cell media">
-                    <img class="media-object pull-left emp-pic" src="assets/pics/{{pic}}">
+                    <img class="media-object pull-left" src="assets/pics/{{pic}}">
                     <div class="media-body">
                         {{ firstName }} {{ lastName }}
                         <p>{{ title }}</p>
@@ -92,8 +91,7 @@
             </ul>
         </div>
     </div>
-</script>                
-    
+</script>
 
 <script src="cordova.js"></script>
 <script src="lib/fastclick.js"></script>

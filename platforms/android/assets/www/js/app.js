@@ -22,6 +22,7 @@
 
         router.start();
     });
+
     /* --------------------------------- Event Registration -------------------------------- */
     document.addEventListener('deviceready', function () {
         StatusBar.overlaysWebView( false );
