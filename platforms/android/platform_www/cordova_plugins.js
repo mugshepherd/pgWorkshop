@@ -46,7 +46,8 @@ module.exports.metadata =
     "cordova-plugin-device": "1.1.0",
     "cordova-plugin-dialogs": "1.2.0",
     "cordova-plugin-statusbar": "2.0.0",
-    "cordova-plugin-whitelist": "1.2.0"
+    "cordova-plugin-whitelist": "1.2.0",
+    "cordova-plugin-geolocation": "1.0.1"
 }
 // BOTTOM OF METADATA
 });
