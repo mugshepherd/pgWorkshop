@@ -8,22 +8,22 @@
     },
     "installed_plugins": {
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.ts.workshop"
+            "PACKAGE_NAME": "co.ts.workshop"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ts.workshop"
+            "PACKAGE_NAME": "co.ts.workshop"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.ts.workshop"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.ts.workshop"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ts.workshop"
+            "PACKAGE_NAME": "co.ts.workshop"
         },
         "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.ts.workshop"
+            "PACKAGE_NAME": "co.ts.workshop"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "co.ts.workshop"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "co.ts.workshop"
         }
     },
     "dependent_plugins": {}
