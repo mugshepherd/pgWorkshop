@@ -13,23 +13,9 @@ var EmployeeView = function(employee) {
 
     
     this.addLocation = function(event) {
-        var locationService
-        alert("aa")
         event.preventDefault();
-        
-        this.geolocation = false;
-        if(navigator.geolocation) {
-            this.geolocation = navigator.geolocation;
-        } 
-        
-        if(this.geolocation) {
-            var locationService = this.geolocation; // native HTML5 geolocation
-            alert("using native HTM5L geolocation")
-        }
-        else {
-            var locationService = navigator.geolocation; // cordova geolocation plugin
-        }
-        locationService.getCurrentPosition(
+
+        navigator.geolocation.getCurrentPosition(
             function(position) {
                 alert(position.coords.latitude + ',' + position.coords.longitude);
             },
