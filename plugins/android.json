@@ -10,6 +10,9 @@
         "cordova-plugin-console": {
             "PACKAGE_NAME": "co.ts.workshop"
         },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "co.ts.workshop"
+        },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "co.ts.workshop"
         },
