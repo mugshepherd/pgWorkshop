@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <plugin name="cordovadd-plugin-whitelist" spec="1" />
-    <plugin name="cordovadd-plugin-geolocation" version=">=1.0.0" />
+    <plugin name="cordovadd-plugin-geolocation" version=">=2.0.0" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
